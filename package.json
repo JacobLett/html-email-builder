@@ -1,22 +1,14 @@
 {
   "name": "grunt-inline-css",
-  "description": "Takes an html file with linked css files or separate css files and turns inline. Great for emails.",
-  "version": "2.0.0",
-  "homepage": "https://github.com/jgallen23/grunt-inline-css",
+  "description": "fork of git://github.com/jgallen23/grunt-inline-css.git",
+  "version": "1.0.0",
+  "homepage": "",
   "author": {
-    "name": "Greg Allen"
+    "name": "Jacob Lett"
   },
-  "contributors": [
-    {
-      "name": "Simon Bruce"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jgallen23/grunt-inline-css.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jgallen23/grunt-inline-css/issues"
+    "url": "https://github.com/JacobLett/html-email-builder.git"
   },
   "licenses": [
     {
@@ -29,14 +21,10 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "test": "grunt test",
-    "travis": "grunt test"
+    "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~1.1.0",
-    "grunt-contrib-clean": "~1.0.0",
-    "grunt-contrib-nodeunit": "~1.0.0",
-    "grunt": "~1.0.1"
+    "grunt": "^1.0.4"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
